@@ -39,7 +39,11 @@ public class FabricPlugin extends CordovaPlugin {
 
 	@Override
 	protected void pluginInitialize() {
-		Fabric.with(this.cordova.getActivity().getApplicationContext(), new Crashlytics(), new Answers());
+		if (preferences.contains("TwitterConsumerKey") && preferences.contains("TwitterConsumerSecret")) {
+			// Twitter connect plugin will init Fabric
+		} else {
+			Fabric.with(this.cordova.getActivity().getApplicationContext(), new Crashlytics(), new Answers());
+		}
 	}
 
 	@Override

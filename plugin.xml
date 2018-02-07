@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin id="floydspace-cordova-plugin-fabric" version="1.1.11" xmlns="http://www.phonegap.com/ns/plugins/1.0">
+<plugin id="floydspace-cordova-plugin-fabric" version="1.1.12" xmlns="http://www.phonegap.com/ns/plugins/1.0">
 
-    <name>cordova-fabric-plugin</name>
+    <name>floydspace-cordova-plugin-fabric</name>
     <description>Cordova Fabric.io Plugin</description>
     <license>MIT</license>
     <keywords>cordova,fabric,craslytics,answers,events,device,ios,android</keywords>
